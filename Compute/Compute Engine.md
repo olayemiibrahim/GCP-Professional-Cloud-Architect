@@ -11,12 +11,13 @@ Compute Engine is GCP's **IaaS** solution that enables users to launch virtual m
 An **instance** is a virtual machine hosted on Google's infrastructure.
 
 When you create an instance you assign the following things:
-_ Instance Name
-_ Labels (Optional)
-_ Region
-_ Zone
-_ Machine Configuration
-_ Network
+
+-   Instance Name
+-   Labels (Optional)
+-   Region
+-   Zone
+-   Machine Configuration
+-   Network
 
 ## Machine Type
 
