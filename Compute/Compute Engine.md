@@ -90,3 +90,15 @@ A **machine type** is a set of virtualized hardware resources that include your 
 **Sole-Tenant Nodes**
 
 -   Allows physical hardware isolation for organizations that want to completely mitigate any risk of hackers exploiting the hardware to access other VM's on the server
+
+### Images
+
+**Public Images**
+
+-   Provided or maintained by Google, the open source community, or third-party vendors
+-   Various OS options such as RHEL, Debian Windows Server, CentOS, etc.,
+-   Typically maintained through their life cycle
+
+**Custom Images**
+
+-   Boot disk images created by you/your organization, that you're responsible for maintaining, hardening, and controlling access to
