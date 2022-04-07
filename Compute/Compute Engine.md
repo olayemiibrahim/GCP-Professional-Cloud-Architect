@@ -62,12 +62,12 @@ A **machine type** is a set of virtualized hardware resources that include your 
         -   e2-micro, e2-small, and e2-medium
         -   Two vCPUs available for short periods of bursting
 
-**GPUs**
+## GPU
 
 -   GPUs can also be added if workload is graphically intensive.
 -   GCP offers NVIDIA Tesla GPUs
 
-**Preemptible VMs or Spot VMs**
+## Preemptible VMs or Spot VMs
 
 -   Fighly affordable compute instances suitable for batch jobs and fault-tolerant workloads.
 -   Best used for batch workloads
@@ -77,17 +77,17 @@ A **machine type** is a set of virtualized hardware resources that include your 
 -   ^ is not the case for Spot VMs
 -   No SLA
 
-**Shielded VMs**
+## Shielded VMs
 
 -   Security feature designed to offer a verifiable integrity of your VM to ensure VM's are not compromised by bootkits and rootkits
 -   Designed for highly sensitive workloads and organizations with strict compliance requirements
 -   Leverges Secure boot with virtual Trusted Platform model vTPM and integrity monitoring
 
-**Confidential VMs**
+## Confidential VMs
 
 -   Ensures that your data and applications stay private and encrypted even while in use.
 
-**Sole-Tenant Nodes**
+## Sole-Tenant Nodes
 
 -   Allows physical hardware isolation for organizations that want to completely mitigate any risk of hackers exploiting the hardware to access other VM's on the server
 
