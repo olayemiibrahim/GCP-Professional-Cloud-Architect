@@ -19,7 +19,7 @@ When you create an instance you assign the following things:
 -   Machine Configuration
 -   Network
 
-## Machine Type
+### Machine Type
 
 A **machine type** is a set of virtualized hardware resources that include your system memory size, virtual CPU (vCPU) count, and persistent disk limits for your VM instances.
 
