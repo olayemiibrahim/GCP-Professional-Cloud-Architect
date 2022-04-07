@@ -25,7 +25,7 @@ A **machine type** is a set of virtualized hardware resources that include your 
 
 **General Purpose Machine Types**
 
--   Best price-to-performance ratio for most workloads
+-   Best **price-to-performance ratio** for most workloads
 -   Four families: E2, N2, N2D, and N1
     -   E2:
         -   Day-to-day computing at a low cost.
@@ -35,3 +35,9 @@ A **machine type** is a set of virtualized hardware resources that include your 
         -   Typically used for web applications, backend applications, medium-sized to large databases, caching, and media/streaming
 
 **Memory Optimized Machine Types**
+
+-   Optimized for **memory**-intensive workloads, and offer more memory per core than other machine types **(up to 12TB of RAM)**.
+-   Two fanilies: M1 and M2
+    -   M1 and M2:
+        -   Optimized for **ultra-high-memory** workloads.
+        -   For large in-memory databases such as SAP HANA, Redis, or in-memory analytics.
