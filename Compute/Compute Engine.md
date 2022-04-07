@@ -66,3 +66,27 @@ A **machine type** is a set of virtualized hardware resources that include your 
 
 -   GPUs can also be added if workload is graphically intensive.
 -   GCP offers NVIDIA Tesla GPUs
+
+**Preemptible VMs or Spot VMs**
+
+-   Fighly affordable compute instances suitable for batch jobs and fault-tolerant workloads.
+-   Best used for batch workloads
+-   Priced anywhere between a 60%-91% discount from a regular VM
+-   May stop preemptible instances at any time due to system events.
+-   Compute Engine WILL shut the VM down once it reaches 24 hours, however this timer can be reset by starting and stopping the VM
+-   ^ is not the case for Spot VMs
+-   No SLA
+
+**Shielded VMs**
+
+-   Security feature designed to offer a verifiable integrity of your VM to ensure VM's are not compromised by bootkits and rootkits
+-   Designed for highly sensitive workloads and organizations with strict compliance requirements
+-   Leverges Secure boot with virtual Trusted Platform model vTPM and integrity monitoring
+
+**Confidential VMs**
+
+-   Ensures that your data and applications stay private and encrypted even while in use.
+
+**Sole-Tenant Nodes**
+
+-   Allows physical hardware isolation for organizations that want to completely mitigate any risk of hackers exploiting the hardware to access other VM's on the server
