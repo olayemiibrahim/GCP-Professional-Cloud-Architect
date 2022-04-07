@@ -37,7 +37,32 @@ A **machine type** is a set of virtualized hardware resources that include your 
 **Memory Optimized Machine Types**
 
 -   Optimized for **memory**-intensive workloads, and offer more memory per core than other machine types **(up to 12TB of RAM)**.
--   Two fanilies: M1 and M2
+-   Two families: M1 and M2
     -   M1 and M2:
         -   Optimized for **ultra-high-memory** workloads.
         -   For large in-memory databases such as SAP HANA, Redis, or in-memory analytics.
+
+**Compute Optimized Machine Types**
+
+-   Optimized for **compute-intensive** workloads, and offer more performance per core than other machine types.
+-   Offer Intel Scalable processors and up to **3.8HGz** of sustained all core turbo.
+-   One family: C2
+    -   C2:
+        -   Used for high-performance computing, gaming, and single-threaded applications that are CPU intensive.
+
+**Shared-core Machine Types**
+
+-   Optimized for **cost**, and share a physical core.
+-   Used for running very small, non-resource intensive applications
+-   Two families: N1 and E2
+    -   N1:
+        -   f1-micro and g1-small
+        -   One vCPU available for short periods of bursting
+    -   E2:
+        -   e2-micro, e2-small, and e2-medium
+        -   Two vCPUs available for short periods of bursting
+
+**GPUs**
+
+-   GPUs can also be added if workload is graphically intensive.
+-   GCP offers NVIDIA Tesla GPUs
